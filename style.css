@@ -17,11 +17,11 @@
 
 }
 nav{
-    display: flex;
+    display: -ms-flexbox;
     align-items: center;
     justify-content: space-between;
     padding: 45px;
-    padding-left: 65%;
+    padding-left: 10%;
     padding-right: 0%;
 }
 nav ul li{   /* isso serve para organizaçao de alinhamento do menu usando listas*/
@@ -43,8 +43,8 @@ nav ul li a:hover{
 .main{
     position: absolute;
     top:40%;
-    left:10%;
-    transform: translateY(-50);
+    left:8%;
+    transform: translateY(50);
 }
 h4{
     font-family: 'Righteous', cursive;
@@ -103,16 +103,22 @@ h3{
     padding: 100px 0px;
 }
 .background-color-sobre img{
-    width: 600px;
-    height: auto;
+    text-shadow:5px 5px 25px rgb(0, 0, 0);
+    margin-right: 50px;
+    margin-left: 40px;
+    width: 30%;
+    height: 30%;
+    display: block;
 }
 .text-sobre{
     width: 550px;
 }
 .main-sobre{
+    position:;
     display:flex;
-    justify-content:space-around;
-    width: 1500px;
+    justify-content: space-around;
+    min-width: 320px;
+    max-width: 1500px;
     margin: auto;
 }
 .text-sobre h2{
