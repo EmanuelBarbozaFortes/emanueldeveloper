@@ -1,6 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2? family=Anton&family=Oswald:wght@200&family=Righteous&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@
 }
 
 .background{
-   background-image: url(cachorro.jpg);
+    background-image: url(cachorro.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -98,7 +98,7 @@ h3{
     top: 6px;
 }
 .background-color-sobre{
-   background-color:#283c4d;
+    background-color:#283c4d;
     padding: 0px 0px;
 }
 .background-color-sobre img{
@@ -109,7 +109,6 @@ h3{
 }
 #img-redonda{
     border-radius: 50%;
-
 }
 .main-sobre{
     display:flex;
@@ -178,7 +177,7 @@ h3{
         font-size: 55px;
     }
     h4{
-        font-size:25px ;
+        font-size:25px;
     }
     h3{
         font-size: 25px;
