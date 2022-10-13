@@ -162,7 +162,7 @@ h3{
     border: 2px solid #ffffff;
 }
 
-@media(max-width:700px){/* definiçao para celular*/
+@media(max-width:740px){/* definiçao para celular*/
     .main-sobre{
         flex-direction: column;
     }
