@@ -201,16 +201,6 @@ h3{
         max-width: 100%;
         position: relative;
     }
-    .container-btn form input:last-child{
-        position: absolute;
-        display: inline-block;
-        outline: none;
-        padding: 20px 40px;
-        border: none;
-        border-radius: 30px;
-        background-color:#0f283f;
-        color: aliceblue;
-        box-shadow: 0px 0px 15px hsl(0, 0%, 0%);
-        right: 6px;
-        top: 6px;
+    .container-btn form input:first-child{
+        height: 10px;
     }
