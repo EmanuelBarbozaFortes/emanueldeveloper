@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .background{
@@ -18,16 +19,6 @@
     height: 100vh !important;
     width: 100%;
 
-}
-.background:after{
-    content: "";
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: 8;
-    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
-    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
 }
 nav{
     display: flexbox;
@@ -58,6 +49,7 @@ nav ul li a:hover{
     top: 40%;
     left:8%;
     transform: translateY(50);
+    z-index: 1 ;
 }
 
 h4{
@@ -175,6 +167,16 @@ h3{
     background-color: transparent;
     border: 2px solid #ffffff;
 }
+.background:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+}
+
 
 @media(max-width:740px){/* definiçao para celular*/
     .main-sobre{
@@ -236,5 +238,5 @@ h3{
         background-position: center;
         height: 100vh !important;
         width: 100%;
-    
     }
+}
